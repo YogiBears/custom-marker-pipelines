@@ -6,6 +6,7 @@ pipeline {
   post {
     aborted {
       echo "Why didn't you push my button?"
+    }
   }
   stages {
     stage('Test') {
